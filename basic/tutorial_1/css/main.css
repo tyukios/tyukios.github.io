@@ -11,6 +11,16 @@ body {
 }
 #openMapButton {
     position: absolute;
+    width: 200px;
+    margin-left: -100px;
+    border-radius: 5px;
+    bottom: 10px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    color: #FFFFFF;
+    background-color: #222222;
+    /* position: absolute;
     width:200px;
     margin-left:-100px;
     bottom:30px;
@@ -21,7 +31,7 @@ body {
     background-color: #e588ff;
     font-size:30px;
     color:white;
-    font-weight: bold;
+    font-weight: bold; */
 }
 #imgDiv{
     position: absolute;
