@@ -5,21 +5,30 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>結果</title>
         <link rel="stylesheet" href="./css/main.css">
-        <script src="./js/qrcode.js"></script>
+        <script src="./js/qrcode.js"></script> 
+		 <!-- 引用qrcode js  -->
     </head>
     <body>
         恭喜您完成任務!
 
-        <BR>
+        <br>
         
         <div id="qrcode"></div>
 
-        <!-- <div id="imgDiv">
-            <img src="./images/centerImg2.jpg">
-        </div> -->
-        
         <button id="returnHomeButton" onclick="goPage()">返回首頁</button>
         <!-- <button class="myButton">點擊我 2</button> -->
+
+
+
+		<script>
+  
+			function goPage(){
+				window.location.href = "https://tyukios.github.io/basic/tutorial_1/";
+			}
+			
+				
+				</script>
+
 
         <script>
             var qrcode = new QRCode("qrcode", {
